@@ -1,0 +1,70 @@
+body{
+  background-color:rgb(3, 3, 75);
+  color:white;
+}
+
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1{
+  text-align:center;
+}
+
+#outer-phone{
+  background-color:black;
+  width:400px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:30px;
+  padding:10px 0px;
+}
+
+#phone{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#camera{
+  background-color:black;
+  border-radius:20px;
+  width:100px;
+  height:25px;
+  margin:auto;
+}
+
+#screen{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background-color:white;
+  color:black;
+  border-radius:30px;
+  width:350px;
+  padding:8px;
+}
+
+#user-input{
+  border-radius:30px;
+  background-color:rgb(243, 228, 228);
+  width:200px;
+  height:30px;
+  font-size:20px;
+  margin-bottom:370px;
+}
+
+button{
+  width:120px;
+  height:50px;
+  margin-bottom:30px;
+  border-radius:20px;
+}
+
+#results-div{
+  font-family:bold;
+}
